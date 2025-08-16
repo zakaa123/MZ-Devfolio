@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import '../styles/main.css';
+import '../Styles/main.css';
 import { FaHtml5, FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiJavascript, SiShopify, SiMongodb } from 'react-icons/si';
 

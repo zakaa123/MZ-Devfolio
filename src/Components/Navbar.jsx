@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import '../styles/main.css';
+import '../Styles/main.css';
 
 const Navbar = ({ onContactClick }) => {
   const [isOpen, setIsOpen] = useState(false);
