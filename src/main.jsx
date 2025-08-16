@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
-import './styles/main.css';
+import './Styles/main.css';
 import 'aos/dist/aos.css';
 
 const container = document.getElementById('root');
