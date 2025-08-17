@@ -28,7 +28,10 @@ function App() {
       <section id="home">
         <Hero
           onContactClick={() => setShowContactModal(true)}
-          onViewWorkClick={() => setShowProjects(true)}
+          onViewWorkClick={() => {
+            console.log("View Work clicked ✅");
+            setShowProjects(true);
+          }}
         />
       </section>
 
@@ -44,8 +47,9 @@ function App() {
       </section>
 
       <section id="projects">
-        {showProjects && <Projects />}
+        <Projects />
       </section>
+
 
       {showContactModal && (
         <ContactModal onClose={() => setShowContactModal(false)} />
